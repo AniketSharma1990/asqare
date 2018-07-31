@@ -7,13 +7,15 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import {RouterModule} from '@angular/router';
+import { FatultiesComponent } from './fatulties/fatulties.component';
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ContactComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    FatultiesComponent
   ],
   imports: [
     BrowserModule,
